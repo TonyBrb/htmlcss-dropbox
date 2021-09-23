@@ -14,9 +14,9 @@ body{
     clear: both;
 }
 
+/* header */
 header{
   height: 40px;
-  background-color: grey;
 }
 
 .logo{
@@ -77,4 +77,55 @@ header{
   color: white;
   padding: 4px 10px;
   font-size: 12px;
+}
+
+/* jumbotron */
+
+.jumbotron{
+  width: 100%;
+  background-color: #B4D0E7;
+  padding-bottom: 10px;
+}
+
+.jumbo-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.jumbo-container h2{
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.text-jumbo{
+  display: inline-block;
+  width: 25%;
+}
+
+.text-jumbo .jumbo-btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+} 
+
+.jumbo-container .image{
+  display: inline-block;
+  width: 70%;
+  float: right;
+}
+
+
+.jumbo-container img{
+  width: 100%;
+}
+
+#arrow{
+  margin-top: 10px;
+}
+
+/* main */
+
+main{
+
+  
 }
