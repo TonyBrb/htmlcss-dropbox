@@ -109,7 +109,7 @@ header{
   margin-bottom: 15px;
 } 
 
-.jumbo-container .image{
+.jumbo-container .jumbo-image{
   display: inline-block;
   width: 70%;
   float: right;
@@ -194,22 +194,45 @@ header{
 }
 
 .textcolumn{
+  position: relative;
   width: 100%;
   border: black solid 1px;
+}
+.textsx{
+  width: 72%;
+  border: solid black 1px;
+  display: inline-block;
+}
+.btn.ent{
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  top: 39%;
+  left: 72%;
 }
 
 .image, .text{
   width: 50%;
   border: solid black 1px;
-  height: 300px;
   float: left;
 }
 
-/* .text{
-  width: 50%;
+.text{
+  width: 45%;
   border: solid black 1px;
-  height: 300px;
-} */
+  margin-left: 35px;
+  float: left;
+}
+
+.image img{
+  width: 100%;
+}
+
+.btn.partner{
+  display: inline-block;
+  margin left: 10px;
+  margin-top: 10px;
+}
 
 .container.operazioni{
   margin-top: 40px;
@@ -217,16 +240,90 @@ header{
 }
 
 .cella{
-  width: 33%;
-  height: 200px;
+  width: 30%;
   float: left;
   border: black solid 1px;
+}
+
+.cella.centrale{
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.imgcella{
+  width: 100%;
+}
+
+.imgcella img{
+  width: 100%;
+}
+
+.textcella{
+  width: 100%;
 }
 
 .sponsor-container{
   width: 100%;
   border: solid black 1px;
-  height: 200px;
+  height: 300px;
+}
+
+.cella.laterale{
+  width: 30%;
+  height: 100%;
+}
+
+.cella.centr{
+  width: 40%;
+  height: 100%;
+}
+
+.sponsorimg{
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.sponsorimg img{
+  width: 100%;
+}
+
+.cella.centr{
+  background-color: #F5F5F5;
+}
+
+#one{
+  background-color: #A2D39B;
+}
+
+#two{
+  background-color: #61082C;
+}
+
+#three{
+  background-color: #1D93CE;
+}
+
+#four{
+  background-color: #F91C1D;
+}
+
+#five{
+  background-color: #D5021F;
+}
+
+#six{
+  background-color: #B4D0E7;
+}
+
+#seven{
+  background-color: #0D2481;
+}
+
+#eight{
+  background-color: #FED830;
 }
 
 .container.faq{
