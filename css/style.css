@@ -129,7 +129,7 @@ header{
 /* main */
 
 .container{
-  width: 60%;
+  width: 70%;
   border: black 1px solid;
   margin: 0 auto;
 }
@@ -143,10 +143,10 @@ header{
 
 .colonna{
   float: left;
-  width: 25%;
-  height: 400px;
+  width: 28%;
   border: lightgray solid 1px;
   margin-right: 30px;
+  height: 795px;
 }
 
 .titolocolonna{
@@ -157,7 +157,35 @@ header{
 
 .testocolonna{
   width: 80%;
-  margin: 10px auto;
+  margin: 20px auto;
+  font-size: 11px;
+}
+
+.piano-tariffario{
+  font-size: 20px;
+}
+
+.mese{
+  font-size: 11px;
+  color: #C8CDD2;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+.prezzo{
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.btn.col{
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.testocolonna.puntisalienti{
+  font-size: 15px;
 }
 
 .container.enterprise{
