@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +16,7 @@
 <body>
   <!-- Qui inizia l'header con logo e menu -->
   <header>
-    <div class="clearfix">
+    <div class="head clearfix">
       <div class="logo">
        <a href="#"><img src="img/logo-small.png" alt="Logo dropbox"></a>
       </div>
@@ -58,7 +58,9 @@
           Annulla in qualsiasi momento
         </div> 
         <div class="jumbo-image"><img src="img/jumbo.png" alt=""></div>
-        <div id="arrow"><i class="fas fa-arrow-down"></i></div>
+        <div id="arrow">
+         <a href="#ancora"><i class="fas fa-arrow-down"></i></a> 
+        </div>
         
       </section>
     </div>
@@ -66,67 +68,66 @@
 
   <main>
     <!-- Container con i 3 box business -->
-    <div class="container">
+    <div class="container" id="ancora">
       <h2>Trova il piano Dropbox Business che fa per te</h2>
       <div class="radiobtn"><input type="radio"> Fatturazione mensile</div>
       <div class="radiobtn"><input type="radio"> Fatturazione annuale</div>
       <div class="clearfix">
         <div class="colonna">
-          <div class="titolocolonna">Singolo</div>
+          <div class="titolocolonna"><i class="far fa-user"></i> Singolo</div>
           <div class="testocolonna piano-tariffario"><strong>Professional</strong></div>
           <div class="testocolonna prezzo"><strong>19,99 €</strong></div>
           <div class="testocolonna mese">/mese</div>
-          <div class="testocolonna">1 utente</div>
-          <div class="testocolonna">3Tb di spazio di archiviazione sicuro</div>
-          <div class="testocolonna">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+          <div class="testocolonna"><i class="far fa-user"></i> 1 utente</div>
+          <div class="testocolonna"><i class="far fa-folder"></i> 3Tb di spazio di archiviazione sicuro</div>
+          <div class="testocolonna"><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
           <a href="#" class="btn col">Prova gratis per 30 giorni</a>
-          <div class="testocolonna">oppure acquista ora</div>
+          <div class="testocolonna">oppure<a href="#">acquista ora</a></div>
+          <div class="trattino"></div>
           <div class="testocolonna puntisalienti"><strong>Punti salienti del piano</strong>
           </div>
-          <div class="testocolonna">Invia file fino a 100 GB con Dropbox Transfert</div>
-          <div class="testocolonna">Cartelle offline su dispositivi mobili</div>
-          <div class="testocolonna">Pulizia remota dell'account</div>
-          <div class="testocolonna">Filigrana documento</div>
-          <div class="testocolonna">Assistenza prioritaria via email e chat</div>
-          </span>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Cartelle offline su dispositivi mobili</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Pulizia remota dell'account</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Filigrana documento</div>
         </div>
         <div class="colonna">
-          <div class="titolocolonna">Team</div>
+          <div class="titolocolonna"><i class="far fa-building"></i> Team</div>
           <div class="testocolonna piano-tariffario"><strong>Professional</strong></div>
           <div class="testocolonna prezzo"><strong>19,99 €</strong></div>
-          <div class="testocolonna mese">/mese</div>
-          <div class="testocolonna">1 utente</div>
-          <div class="testocolonna">3Tb di spazio di archiviazione sicuro</div>
-          <div class="testocolonna">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+          <div class="testocolonna mese">/ utente/ mese, a partire da 3 utenti</div>
+          <div class="testocolonna"><i class="fas fa-user-plus"></i> 1 utente</div>
+          <div class="testocolonna"><i class="far fa-folder"></i> 3Tb di spazio di archiviazione sicuro</div>
+          <div class="testocolonna"><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
           <a href="#" class="btn col">Prova gratis per 30 giorni</a>
-          <div class="testocolonna">oppure acquista ora</div>
+          <div class="testocolonna">oppure<a href="#">acquista ora</a></div>
+          <div class="trattino"></div>
           <div class="testocolonna puntisalienti"><strong>Punti salienti del piano</strong>
           </div>
-          <div class="testocolonna">Invia file fino a 100 GB con Dropbox Transfert</div>
-          <div class="testocolonna">Cartelle offline su dispositivi mobili</div>
-          <div class="testocolonna">Pulizia remota dell'account</div>
-          <div class="testocolonna">Filigrana documento</div>
-          <div class="testocolonna">Assistenza prioritaria via email e chat</div>
-          </span>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Cartelle offline su dispositivi mobili</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Pulizia remota dell'account</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Filigrana documento</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Assistenza prioritaria via email e chat</div>
         </div>
         <div class="colonna">
-          <div class="titolocolonna">Team</div>
+          <div class="titolocolonna"><i class="far fa-building"></i> Team</div>
           <div class="testocolonna piano-tariffario"><strong>Professional</strong></div>
           <div class="testocolonna prezzo"><strong>19,99 €</strong></div>
-          <div class="testocolonna mese">/mese</div>
-          <div class="testocolonna">1 utente</div>
-          <div class="testocolonna">3Tb di spazio di archiviazione sicuro</div>
-          <div class="testocolonna">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+          <div class="testocolonna mese">/ utente/ mese, a partire da 3 utenti</div>
+          <div class="testocolonna"><i class="fas fa-user-plus"></i> 1 utente</div>
+          <div class="testocolonna"><i class="far fa-smile"></i> 3TB di spazio di archiviazione sicuro</div>
+          <div class="testocolonna"><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
           <a href="#" class="btn col">Prova gratis per 30 giorni</a>
-          <div class="testocolonna">oppure acquista ora</div>
+          <div class="testocolonna">oppure<a href="#">acquista ora</a></div>
+          <div class="trattino"></div>
           <div class="testocolonna puntisalienti"><strong>Punti salienti del piano</strong>
           </div>
-          <div class="testocolonna">Invia file fino a 100 GB con Dropbox Transfert</div>
-          <div class="testocolonna">Cartelle offline su dispositivi mobili</div>
-          <div class="testocolonna">Pulizia remota dell'account</div>
-          <div class="testocolonna">Filigrana documento</div>
-          <div class="testocolonna">Assistenza prioritaria via email e chat</div>
-          </span>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Invia file fino a 100 GB con Dropbox Transfert</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Cartelle offline su dispositivi mobili</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Pulizia remota dell'account</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Filigrana documento</div>
+          <div class="testocolonna"><i class="fas fa-check blue"></i> Assistenza prioritaria via email e chat</div>
         </div>
 
       </div>
@@ -135,13 +136,13 @@
 
     <!-- Container Enterprice -->
     <div class="container enterprise">
-      <div class="titolocolonna"><strong>Team</strong>
+      <div class="titolocolonna"><strong><i class="far fa-building"></i> Team</strong>
       </div>
       <div class="textcolumn">
         <div class="textsx">
-          <h2>Enterprise</h2>
-          <div>Contatta l'uffcio vendite per i prezzi</div>
-          <div>Soluzuini personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div>
+          <h2><strong>Enterprise</strong></h2>
+          <div><strong>Contatta l'uffcio vendite per i prezzi</strong></div>
+          <div>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su scala</div>
         </div>
           <a href="#" class="btn ent">Contatta l'ufficio vendite</a>
         </div>
@@ -176,7 +177,7 @@
       </div>
       <div class="cella centrale">
         <div class="imgcella">
-          <img src="img/business-feature-switching-tools.png" alt="">
+          <img src="img/business-feature-coordinate-it.png" alt="">
         </div>
         <div class="textcella">
           <h2>Passa di meno da uno strumento all'altro</h2>
@@ -187,7 +188,7 @@
       </div>
       <div class="cella">
         <div class="imgcella">
-          <img src="img/business-feature-switching-tools.png" alt="">
+          <img src="img/business-feature-multi-device.png" alt="">
         </div>
         <div class="textcella">
           <h2>Passa di meno da uno strumento all'altro</h2>
@@ -198,7 +199,7 @@
       </div>
       <div class="cella">
         <div class="imgcella">
-          <img src="img/business-feature-switching-tools.png" alt="">
+          <img src="img/business-feature-integrations-it.png" alt="">
         </div>
         <div class="textcella">
           <h2>Passa di meno da uno strumento all'altro</h2>
@@ -209,7 +210,7 @@
       </div>
       <div class="cella centrale">
         <div class="imgcella">
-          <img src="img/business-feature-switching-tools.png" alt="">
+          <img src="img/business-feature-send-files-it.png" alt="">
         </div>
         <div class="textcella">
           <h2>Passa di meno da uno strumento all'altro</h2>
@@ -220,7 +221,7 @@
       </div>
       <div class="cella">
         <div class="imgcella">
-          <img src="img/business-feature-switching-tools.png" alt="">
+          <img src="img/business-feature-security.png" alt="">
         </div>
         <div class="textcella">
           <h2>Passa di meno da uno strumento all'altro</h2>
@@ -232,9 +233,9 @@
     </div>
 
     <div class="container">
-       <span>Più di 500.000 team</span>  
-       <br>
-       <span>Utilizzano dropbox business</span>
+       <div class="titolo"><strong>Più di 500.000 team</strong></div>  
+       <div class="titolo"><strong>Utilizzano dropbox business</strong></div>
+       <div class="linkk"><a href="#">Scopri di più sui nostri clienti</a> </div>
     </div>
 
     <div class="sponsor-container clearfix">
@@ -253,7 +254,13 @@
         </div>
       </div>
 
-      <div class="cella centr"></div>
+      <div class="cella centr">
+        <div class="sponsorimgcentro">
+          <img src="img/designit.svg" alt="">
+        </div>
+        <div class="testosponsor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias sunt asperiores, ab
+          voluptatem quis fugit molestiae in neque nemo harum sed est error modi illo repudiandae vel maiores accusamus!</div>
+      </div>
 
       <div class="cella laterale clearfix">
         <div class="sponsorimg" id="five">
@@ -270,24 +277,64 @@
         </div>
       </div>
     </div>
-    <div class="sponsor-container"></div>
+    <div class="sponsor-container down">
+      <div class="container">
+        <div class="testo"><strong>Porta Dropbox business nella tua azienda.</strong></div>
+        <a href="#" class="btn">Inizia la tua prova gratuita</a>
+      </div>
+    </div>
 
     <div class="container faq">
       <h2>Domande Frequenti</h2>
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row"></div>
+      <div class="row"><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></div>
+      <div class="row"><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></div>
+      <div class="row"><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></div>
+      <div class="row"><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></div>
     </div>
   </main>
 
 
   <footer class="clearfix">
-    <div class="cella-footer"></div>
-    <div class="cella-footer"></div>
-    <div class="cella-footer"></div>
-    <div class="cella-footer"></div>
-    <div class="cella-footer"></div>
+    <div class="cella-footer">
+      <h2>Dropbox</h2>
+      <div>Applicazione desktop</div>
+      <div>perchè Dropbox</div>
+      <div>Piani</div>
+      <div>Sicurezza</div>
+      <div>Funzioni</div>
+    </div>
+    <div class="cella-footer">
+      <h2>Prodotti</h2>
+      <div>Applicazione desktop</div>
+      <div>perchè Dropbox</div>
+      <div>Piani</div>
+      <div>Sicurezza</div>
+      <div>Funzioni</div>
+    </div>
+    <div class="cella-footer">
+      <h2>Azienda</h2>
+      <div>Applicazione desktop</div>
+      <div>perchè Dropbox</div>
+      <div>Piani</div>
+      <div>Sicurezza</div>
+      <div>Funzioni</div>
+    </div>
+    <div class="cella-footer">
+      <h2>Supporto</h2>
+      <div>Applicazione desktop</div>
+      <div>perchè Dropbox</div>
+      <div>Piani</div>
+      <div>Sicurezza</div>
+      <div>Funzioni</div>
+    </div>
+    <div class="cella-footer">
+      <h2>Community</h2>
+      <div>Applicazione desktop</div>
+      <div>perchè Dropbox</div>
+      <div>Piani</div>
+      <div>Sicurezza</div>
+      <div>Funzioni</div>
+    </div>
   </footer>
 </body>
 </html>
